@@ -18,6 +18,7 @@ When you click the **Knit** button a document will be generated that includes bo
 ```{r cars}
 library(readxl)
 unicorn_data = read_excel("CB-Insights_Global-Unicorn-Club_2023.xlsx")
+print(unicorn_data)
 
 ```
 
